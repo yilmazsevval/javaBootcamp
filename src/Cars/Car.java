@@ -4,7 +4,7 @@ public abstract class Car {
     private String brand;
     private String model;
     private String color;
-    private int dailyPrice = 300;
+    private int dailyPrice;
     private int monthlyPrice;
 
     public Car(String brand, String model, String color, int dailyPrice, int monthlyPrice) {

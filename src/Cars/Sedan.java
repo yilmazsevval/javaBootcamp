@@ -9,7 +9,7 @@ public class Sedan extends Car {
 
     @Override
     public int dailyPrice() {
-        return Payment.SUV_PRICE;
+        return Payment.SEDAN_PRICE;
     }
 
     @Override

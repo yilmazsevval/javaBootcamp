@@ -9,7 +9,7 @@ public class Hatchback extends Car {
 
     @Override
     public int dailyPrice() {
-        return Payment.SUV_PRICE;
+        return Payment.HATCHBACK_PRICE;
     }
 
     @Override
